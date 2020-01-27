@@ -1,0 +1,156 @@
+header {
+    position: relative;
+    height: 1000px;
+    background: url("../image/main-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header::before {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    border-radius: 35px;
+    background: #ff00008a;
+    color: #ccb;
+}
+
+button:hover {
+    background: #fd2b2b;
+}
+
+.arrow {
+    position: relative;
+    top: 220px;
+    width: 30px;
+    height: 30px;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: red;
+}
+
+.header_menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    padding-left: 250px;
+    padding-right: 250px;
+    border-bottom: 0.8px solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.header_ul {
+    display: flex;
+    align-items: center;
+    height: 95px;
+    list-style: none;
+}
+
+.header_ul a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ccb;
+}
+
+.header_ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 145px;
+}
+
+.header_ul li:nth-child(2) {
+    border-left: 0.8px solid rgba(255, 255, 255, 0.4);
+}
+
+.header_ul li:nth-child(3) {
+    border-right: 0.8px solid rgba(255, 255, 255, 0.4);
+    border-left: 0.8px solid rgba(255, 255, 255, 0.4);
+}
+
+.header_ul li:hover {
+    background: rgba(255, 255, 255, 0.28);
+}
+
+.header_banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 905px;
+    color: white;
+}
+
+.header_banner h1 {
+    position: relative;
+    bottom: 85px;
+    font-size: 200px;
+    font-weight: 900;
+    color: #dcddd0;
+}
+
+.header_banner h2 {
+    position: relative;
+    bottom: 31px;
+    right: 20px;
+    width: 965px;
+    text-align: center;
+    font-size: 30px;
+    text-indent: 25px;
+    color: #ccb;
+}
+
+.header_btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header_btn_left {
+    width: 250px;
+    height: 70px;
+    margin-right: 85px;
+    border: none;
+    border-radius: 35px;
+    background: #ff00008a;
+    color: white;
+}
+
+.header_btn_left:hover {
+    background: #fd2b2b;
+}
+
+.header_btn_right {
+    width: 250px;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    background: #ffffff85;
+    color: #f00;
+}
+
+.header_btn_right:hover {
+    background: #ffffffd1;
+}

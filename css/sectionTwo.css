@@ -1,0 +1,42 @@
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2c3038;
+    color: dimgray;
+}
+
+.sectionTwo p {
+    width: 200px;
+}
+
+.sectionTwo h2,
+.sectionTwo h3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #ccb;
+}
+
+.sectionTwo .center {
+    display: flex;
+    height: 500px;
+}
+
+.sectionTwo_article_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+}
+
+.sectionTwo_article_two,
+.sectionTwo_article_four,
+.sectionTwo_article_three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+}

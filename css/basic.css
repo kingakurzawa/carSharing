@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.center {
+    box-sizing: border-box;
+    width: 1096px;
+}
+
+/* styles for all h2 */
+h2 {
+    font-size: 30px;
+}
+
+/*styles for span h2 in sections*/
+section span {
+    margin-right: 10px;
+    color: #fd2b2b;
+}

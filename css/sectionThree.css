@@ -1,0 +1,36 @@
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 660px;
+    background: #bcbdac;
+    color: dimgrey;
+}
+
+.sectionThree .center {
+    margin: 0;
+}
+
+.sectionThree_service,
+.sectionThree article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionThree h2 {
+    margin-bottom: 30px;
+    color: #334;
+}
+
+.sectionThree_image {
+    float: left;
+    width: 490px;
+    height: 315px;
+}
+
+.sectionThree p {
+    width: 500px;
+    margin-left: 30px;
+}
